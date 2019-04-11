@@ -1,0 +1,10 @@
+      parameter  (mh=146,   nh=182,    kh=35
+     *,           mgr=mh-2,ngr=nh-2, kgr=kh-2
+     *,           md=mh-1, nd=nh-1,  kd=kh-1
+     *,           jf=100
+     *,          nodes=11539,kxLine=335, kyLine=376
+     *,          kxyLin=119, kxLu=343   ,kyLu=384    
+     *,          kk_isl=10 
+     *,          nc1=0,nc2=0,mc1=0,mc2=0 ,nz=13
+     *,          ntrac=5  
+     *)

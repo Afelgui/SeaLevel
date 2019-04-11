@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: arc_ocn - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Dina\LOCALS~1\Temp\RSP4BC.tmp" with contents
+[
+/compile_only /nologo /real_size:64 /warn:nofileopt /module:"Release/" /object:"Release/" 
+"C:\dina\model_8.11\arc_ocn\wtdisk.F"
+"C:\dina\model_8.11\arc_ocn\ocn.f"
+]
+Creating temporary file "C:\DOCUME~1\Dina\LOCALS~1\Temp\RSP4BD.tmp" with contents
+[
+kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Release/arc_ocn.pdb" /machine:I386 /out:"Release/arc_ocn.exe" 
+.\Release\bkc.obj
+.\Release\density.obj
+.\Release\difxz.obj
+.\Release\difyz.obj
+.\Release\fact1.obj
+.\Release\factts.obj
+.\Release\factuv.obj
+.\Release\filter.obj
+.\Release\filtr_lvl.obj
+.\Release\filtr_ts.obj
+.\Release\integ.obj
+.\Release\integ1.obj
+.\Release\n_ad.obj
+.\Release\n_ad1.obj
+.\Release\ocn.obj
+.\Release\org.obj
+.\Release\qstx.obj
+.\Release\qstx1.obj
+.\Release\quickest_uv_dina.obj
+.\Release\quickest_uv_dina1.obj
+.\Release\rddisk.obj
+.\Release\right1.obj
+.\Release\rivers.obj
+.\Release\stbet0.obj
+.\Release\stbet0_backup.obj
+.\Release\tras1.obj
+.\Release\tras23.obj
+.\Release\tras_difxz.obj
+.\Release\tras_difyz.obj
+.\Release\vyaz_uv_dina.obj
+.\Release\wind_bg.obj
+.\Release\wtdisk.obj
+.\Release\yflux.obj
+.\Release\yflux1.obj
+.\Release\z_adv.obj
+]
+Creating command line "link.exe @C:\DOCUME~1\Dina\LOCALS~1\Temp\RSP4BD.tmp"
+<h3>Output Window</h3>
+Compiling Fortran...
+C:\dina\model_8.11\arc_ocn\wtdisk.F
+C:\dina\model_8.11\arc_ocn\ocn.f
+Linking...
+Release/arc_ocn.exe : warning LNK4084: total image size 286978048 exceeds max (268435456); image may not run
+
+
+
+<h3>Results</h3>
+arc_ocn.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>
